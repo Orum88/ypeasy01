@@ -1,5 +1,7 @@
 .team {
 	background-color: #5036E6;
+	margin: 0;
+	padding: 0;
 	&__image {
 		width: 320px;
 		height: 320px;
@@ -30,6 +32,22 @@
 	background-color: #5036E6;
 	margin: 0 auto;
 	padding-top: 175px;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(2, 1fr);
+&__title {
+	display: block;
+}
+	&__text {
+	display: grid;
+	margin-top: 65px;
+	margin-right: 160px;
+}
+	&__image {
+		display: grid;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
 }
 	&__card {
 		margin-bottom: 20px;

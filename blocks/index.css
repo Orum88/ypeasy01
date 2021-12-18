@@ -39,6 +39,8 @@
 
 .team {
   background-color: #5036E6;
+  margin: 0;
+  padding: 0;
 }
 .team__image {
   width: 320px;
@@ -68,6 +70,22 @@
   background-color: #5036E6;
   margin: 0 auto;
   padding-top: 175px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.team__wanted__title {
+  display: block;
+}
+.team__wanted__text {
+  display: grid;
+  margin-top: 65px;
+  margin-right: 160px;
+}
+.team__wanted__image {
+  display: grid;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .team__card {
   margin-bottom: 20px;
@@ -157,21 +175,23 @@
 }
 
 .title {
-  font-family: "Noto_Sans";
+  font-family: "Noto_Sans", sans-serif;
   font-weight: 600;
   font-size: 70px;
-  margin: 0;
   padding-top: 80px;
-  padding-left: 160px;
+  padding-left: 80px;
+  margin: 0;
+  max-width: 520px;
+  min-width: 500px;
 }
 
 .subtitle {
-  font-family: "Noto_Sans";
+  font-family: "Noto_Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   min-width: 500px;
   max-width: 520px;
-  padding-left: 160px;
+  padding-left: 80px;
 }
 
 .popup {
