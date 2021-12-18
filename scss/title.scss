@@ -2,9 +2,16 @@
 	font-family: "Noto_Sans", sans-serif;
 	font-weight: 600;
 	font-size: 70px;
-	padding-top: 80px;
-	padding-left: 160px;
 	margin: 0;
 	max-width: 520px;
 	min-width: 500px;
+	color: white;
+	line-height: 90%;
+
+	@media screen and (max-width: 325px){
+		& {
+			font-size: 40px;
+			min-width: 280px;
+		}
+	}
 }

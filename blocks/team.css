@@ -2,61 +2,90 @@
   background-color: #5036E6;
   margin: 0;
   padding: 0;
+  min-height: 868px;
 }
-.team__image {
+.team__inner {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.team__gallery-image {
   width: 320px;
   height: 320px;
+  border-radius: 15px;
+}
+.team__gallery-slide {
+  width: 320px;
 }
 .team__gallery {
-  margin-top: 110px;
-  margin-left: 120px;
-  text-align: center;
-  width: 85%;
-  display: flex;
-}
-.team__figure-image {
-  display: inline-block;
-  position: relative;
-  height: 320px;
-  width: 320px;
-}
-.team__figcaption {
-  color: white;
-  padding: 0.2em 0;
-  top: 150px;
-  text-align: left;
   width: 100%;
+  margin-top: 110px;
+}
+.team__gallery-title {
   display: block;
+  color: white;
+  font-family: "Noto_Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 130%;
+  letter-spacing: 0.055em;
 }
-.team__wanted {
-  background-color: #5036E6;
-  margin: 0 auto;
-  padding-top: 175px;
-  display: grid;
-  gap: 0px;
-  grid-template-columns: repeat(2, 1fr);
-}
-.team__wanted__title {
+.team__gallery-subtitle {
   display: block;
+  color: white;
+  font-family: "Noto_Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
 }
-.team__wanted__text {
-  display: grid;
-  margin-top: 65px;
-  margin-right: 180px;
+.team__gallery-wrapper {
+  justify-content: space-between;
+  height: 80%;
 }
-.team__wanted__image {
-  display: grid;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.team__gallery-pagination {
+  display: none;
 }
-.team__card {
-  margin-bottom: 20px;
+@media screen and (max-width: 320px) {
+  .team__gallery-pagination {
+    display: flex;
+    position: relative;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  .team__gallery-image {
+    width: 280px;
+    height: 280px;
+  }
 }
-.team__gallery_wrap {
-  max-width: 1280px;
-  min-width: 320px;
-  margin: 0 auto;
-  padding: 40px 15px 0;
+.team__pagination-dot {
+  height: 8px;
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+@media screen and (max-width: 325px) {
+  .team__gallery {
+    margin-top: 60px;
+  }
+  .team__gallery-title {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+  }
+  .team__gallery-subtitle {
+    font-size: 12px;
+    text-align: center;
+  }
+  .team {
+    min-height: 685px;
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white;
 }
 
 /*# sourceMappingURL=team.css.map */

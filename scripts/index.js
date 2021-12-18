@@ -46,3 +46,27 @@ popupformName.onmouseover = function() {
 popupformDescription.onmouseover = function() {
     popupformDescription.style.background = 'rgba(26, 26, 26, 0.6)';
 };
+
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="team__pagination-dot ' + className + '"></span>';
+        },
+    },
+    breakpoints: {
+        321: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            pagination: false,
+        },
+        769: {
+            slidesPerView: 3,
+            spaceBetween: 28,
+        },
+    }
+});

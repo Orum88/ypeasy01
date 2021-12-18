@@ -1,5 +1,59 @@
 .war {
     background-color: black;
-    margin:0 auto;
-    padding: 0;
+    min-height: 985px;
+    position: relative;
+    overflow: hidden;
+
+    &__inner {
+        display: flex;
+        padding-top: 80px;
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+
+    &__image {
+        width: 440px;
+        display: inline-block;
+        margin-left: -70px;
+    }
+
+    &__chess {
+        width: 364px;
+        display: inline-block;
+        margin-right: 35px;
+    }
+
+    &__footer {
+        display: flex;
+        position: relative;
+        vertical-align: bottom;
+        margin-top: 74px;
+        justify-content: space-between;
+    }
+
+@media screen and (max-width: 768px){
+    &__footer {
+        margin-top: 140px;
+        margin-left: -193px;}
+}
+@media screen and (max-width: 325px){
+    & {
+        min-height: 725px;
+    }
+    &__inner {
+        padding-top: 20px;
+    }
+
+    &__image {
+        display: none;
+    }
+
+    &__chess {
+        width: 280px;
+        height: 70px;
+        margin-left: 178px;
+        margin-top: -125px;
+    }
+
+}
 }
