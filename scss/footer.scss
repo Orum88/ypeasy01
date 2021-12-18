@@ -1,3 +1,5 @@
+@import 'variables';
+
 .footer {
 	background-color: #5036E6;
 	display: flex;
@@ -9,6 +11,7 @@
 		margin-top: 60px;
 		font-size: 20px;
 		font-family: "Noto_Sans", sans-serif;
+		color: $font-color;
 	}
 
 	&__subtitle {
@@ -16,5 +19,19 @@
 		font-family: "Noto_Sans", sans-serif;
 		font-size: 15.1px;
 		color: #8E9199;
+		margin-bottom: 80px;
+	}
+
+	@media screen and (max-width: 325px){
+		&__title {
+			font-size: 12px;
+			margin-top: 40px;
+		}
+
+		&__subtitle {
+			font-size: 12px;
+			margin-top: 10px;
+			margin-bottom: 40px;
+		}
 	}
 }
