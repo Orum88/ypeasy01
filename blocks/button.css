@@ -1,0 +1,32 @@
+.button__main {
+  background-color: #009465;
+  border-radius: 8px;
+  width: 218px;
+  height: 48px;
+  color: white;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: "Noto_Sans", sans-serif;
+  font-weight: 600;
+  border: 1px;
+}
+.button__subheader {
+  display: block;
+  background-color: #5036E6;
+  color: white;
+  min-width: 84px;
+  height: 50px;
+  border: 1px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 16px;
+  line-height: 14.4px;
+  font-family: "Noto_Sans", sans-serif;
+  font-weight: 500;
+  margin: 62px 740px 0 160px;
+}
+.button__main_footer {
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=button.css.map */

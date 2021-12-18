@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Шахматный клуб</title>
+    <link rel="stylesheet" href="./blocks/index.css" />
+</head>
+<body>
+<div class="page">
+<header class="header">
+    <div class="header__top">
+        <button class="button__main">Зарегистрироваться</button>
+    </div>
+    <div class="header__main">
+        <button class="button__subheader">КЛУБ</button>
+        <img src="./images/header-main.svg" alt="Картинка с кругами" class="header__main-image">
+    </div>
+    <div class="header__content">
+        <img src="./images/header-chess-desk.svg" alt="Шахматная доска" class="header__sub-image">
+    </div>
+</header>
+<main class="main">
+<section class="team">
+   <h2 class="title">Наша команда</h2>
+    <p class="subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
+   <div class="team__gallery">
+       <figure class="team__figure-image">
+           <img class="team__card" alt="Андрей, шахматист" src="./images/card_andrew.svg">
+           <figcaption class="team__figcaption">
+               <span class="card__title">Андрей</span><br>
+               <span class="card__subtitle">Шахматист, писатель.</span>
+           </figcaption>
+       </figure>
+       <figure class="team__figure-image">
+           <img class="team__card" alt="Никита, шахматист" src="./images/card_nikita.svg">
+           <figcaption class="team__figcaption">
+               <span class="card__title">Никита</span><br>
+               <span class="card__subtitle">Шахматист, кулинар.</span>
+           </figcaption>
+       </figure>
+       <figure class="team__figure-image">
+           <img class="team__card" alt="Алексей, шахматист" src="./images/card_alexey.svg">
+           <figcaption class="team__figcaption">
+               <span class="card__title">Алексей</span><br>
+               <span class="card__subtitle">Шахматист, геймер.</span>
+           </figcaption>
+       </figure>
+   </div>
+</section>
+    <section class="team__wanted">
+        <img src="./images/team-wanted-image.svg" alt="Картинка с кругами" class="team__mainimage">
+       <p class="title">Хочешь <br>в команду?</p>
+        <p class="subtitle">Свяжись с нами и мы обсудим все детали присоеденения к команде.</p>
+    </section>
+    <section class="war">
+        <p class="title">Сражения</p>
+        <p class="subtitle">Сражайтесь в парах и приятно проводите время. Если хотите прокачать свои навыки — сыграйте
+            с нашими шахматистами.</p>
+        <div class="team__gallery">
+            <figure class="team__figure-image"><img alt="Игра в шахматы" src="./images/card1.svg"> </figure>
+                <figure class="team__figure-image"><img alt="Шахматная доска" src="./images/card2.svg"> </figure>
+                    <figure class="team__figure-image"><img alt="Шахматы на песке" src="./images/card3.svg"> </figure>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <img src="./images/logo.svg" alt="Шахматная фигура" class="logo logo__footer">
+    <button class="button__main button__main_footer">Зарегистрироваться</button>
+    <p class="footer__title">Шахматный клуб в Москве.</p>
+    <p class="footer__subtitle">© Chees Club.</p>
+</footer>
+</div>
+<div class="popup popup_info">
+    <div class="popup__container">
+        <img src="./images/logo.svg" alt="Шахматная фигура" class="logo logo__footer">
+        <h2 class="popup__title">Регистрация</h2>
+        <form class="popup__form profile-edit" id="profile-edit" name="profile-edit">
+            <input value="Имя" id="name" type="text" class="popup__input" name="card_name" required>
+            <input value="Email" id="description" type="text" class="popup__input" name="card_job" required>
+        </form>
+        <button type="submit" class="button__main button__close">Зарегистрироваться</button>
+    </div>
+</div>
+<script src="./scripts/index.js"></script>
+</body>
+</html>

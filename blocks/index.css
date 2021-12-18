@@ -1,0 +1,257 @@
+.header {
+  position: relative;
+  z-index: 100;
+}
+.header__content {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+.header__main-image {
+  margin-top: 72px;
+  width: 640px;
+  height: 640px;
+}
+.header__sub-image {
+  width: 416px;
+  height: 104px;
+}
+.header__top {
+  display: flex;
+  justify-content: end;
+  max-width: 1120px;
+  margin-top: 30px;
+}
+.header__main {
+  display: flex;
+  justify-content: end;
+}
+
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+  color: white;
+}
+
+.main {
+  font-family: "Noto_Sans", sans-serif;
+}
+
+.team {
+  background-color: #5036E6;
+}
+.team__image {
+  width: 320px;
+  height: 320px;
+}
+.team__gallery {
+  margin: 0 auto;
+  text-align: center;
+  width: 85%;
+  display: flex;
+}
+.team__figure-image {
+  display: inline-block;
+  position: relative;
+  height: 320px;
+  width: 320px;
+}
+.team__figcaption {
+  color: white;
+  padding: 0.2em 0;
+  top: 150px;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+.team__wanted {
+  background-color: #5036E6;
+  margin: 0 auto;
+  padding-top: 175px;
+}
+.team__card {
+  margin-bottom: 20px;
+}
+.team__gallery_wrap {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 40px 15px 0;
+}
+
+.button__main {
+  background-color: #009465;
+  border-radius: 8px;
+  width: 218px;
+  height: 48px;
+  color: white;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: "Noto_Sans", sans-serif;
+  font-weight: 600;
+  border: 1px;
+}
+.button__subheader {
+  display: block;
+  background-color: #5036E6;
+  color: white;
+  min-width: 84px;
+  height: 50px;
+  border: 1px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 16px;
+  line-height: 14.4px;
+  font-family: "Noto_Sans", sans-serif;
+  font-weight: 500;
+  margin: 62px 740px 0 160px;
+}
+.button__main_footer {
+  margin-top: 60px;
+}
+
+.footer {
+  background-color: #5036E6;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+.footer__title {
+  margin-top: 60px;
+  font-size: 20px;
+  font-family: "Noto_Sans", sans-serif;
+}
+.footer__subtitle {
+  margin-top: 20px;
+  font-family: "Noto_Sans", sans-serif;
+  font-size: 15.1px;
+  color: #8E9199;
+}
+
+.logo {
+  width: 38px;
+  height: 54px;
+}
+.logo__footer {
+  margin: 80px auto;
+}
+
+.war {
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 400;
+}
+.card__subtitle {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.title {
+  font-family: "Noto_Sans";
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.subtitle {
+  font-family: "Noto_Sans";
+  font-weight: 400;
+  font-size: 20px;
+  min-width: 500px;
+  max-width: 520px;
+}
+
+.popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0000007F;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s, visibility 0s 0.6s;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.popup__container {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+@media screen and (max-width: 510px) {
+  .popup__container {
+    max-width: 320px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .popup__container {
+    margin-top: 32px;
+    max-width: 282px;
+    width: 100%;
+  }
+}
+.popup__title {
+  margin: 0 auto;
+  font-family: "Noto_Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 510px) {
+  .popup__title {
+    margin: 25px auto 75px;
+    max-width: 238px;
+    font-size: 18px;
+  }
+}
+.popup__form {
+  display: block;
+  margin: 78px auto;
+}
+.popup__input {
+  margin-bottom: 20px;
+  min-width: 500px;
+  max-width: 500px;
+  height: 48px;
+  border: 1px;
+  font-family: "Noto_Sans", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  background-color: #1A1A1A;
+  align-items: center;
+  display: block;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  padding-left: 28px;
+}
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .popup__input {
+    margin: 0 22px 30px 22px;
+    width: 100%;
+    min-width: 500px;
+    max-width: 500px;
+  }
+}
+.popup_opened {
+  transition: visibility 0s, opacity 0.6s;
+  visibility: visible;
+  opacity: 1;
+  color: black;
+  background-color: black;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=index.css.map */

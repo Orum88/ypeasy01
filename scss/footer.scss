@@ -1,0 +1,20 @@
+.footer {
+	background-color: #5036E6;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	align-items: center;
+
+	&__title {
+		margin-top: 60px;
+		font-size: 20px;
+		font-family: "Noto_Sans", sans-serif;
+	}
+
+	&__subtitle {
+		margin-top: 20px;
+		font-family: "Noto_Sans", sans-serif;
+		font-size: 15.1px;
+		color: #8E9199;
+	}
+}

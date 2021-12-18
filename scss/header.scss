@@ -1,0 +1,33 @@
+@import 'mixins', 'variables';
+.header {
+
+	position: relative;
+  z-index: 100;
+  // .header__content
+
+  &__content {
+		margin:0 auto;
+		max-width: 1120px;
+  }
+
+	&__main-image {
+		margin-top: 72px;
+		width: 640px;
+		height: 640px;
+	}
+
+	&__sub-image {
+		width: 416px;
+		height: 104px;
+	}
+	&__top {
+		display: flex;
+		justify-content: end;
+		max-width: 1120px;
+		margin-top: 30px;
+	}
+	&__main {
+		display:flex;
+		justify-content: end;
+	}
+}

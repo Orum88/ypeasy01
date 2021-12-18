@@ -1,0 +1,29 @@
+.header {
+  position: relative;
+  z-index: 100;
+}
+.header__content {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+.header__main-image {
+  margin-top: 72px;
+  width: 640px;
+  height: 640px;
+}
+.header__sub-image {
+  width: 416px;
+  height: 104px;
+}
+.header__top {
+  display: flex;
+  justify-content: end;
+  max-width: 1120px;
+  margin-top: 30px;
+}
+.header__main {
+  display: flex;
+  justify-content: end;
+}
+
+/*# sourceMappingURL=header.css.map */
