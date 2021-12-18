@@ -47,7 +47,8 @@
   height: 320px;
 }
 .team__gallery {
-  margin: 0 auto;
+  margin-top: 110px;
+  margin-left: 120px;
   text-align: center;
   width: 85%;
   display: flex;
@@ -71,7 +72,7 @@
   margin: 0 auto;
   padding-top: 175px;
   display: grid;
-  gap: 20px;
+  gap: 0px;
   grid-template-columns: repeat(2, 1fr);
 }
 .team__wanted__title {
@@ -80,7 +81,7 @@
 .team__wanted__text {
   display: grid;
   margin-top: 65px;
-  margin-right: 160px;
+  margin-right: 180px;
 }
 .team__wanted__image {
   display: grid;
@@ -179,19 +180,19 @@
   font-weight: 600;
   font-size: 70px;
   padding-top: 80px;
-  padding-left: 80px;
+  padding-left: 160px;
   margin: 0;
   max-width: 520px;
   min-width: 500px;
 }
 
 .subtitle {
-  font-family: "Noto_Sans", "Arial", sans-serif;
+  font-family: "Noto_Sans", sans-serif;
   font-weight: 400;
   font-size: 20px;
   min-width: 500px;
   max-width: 520px;
-  padding-left: 80px;
+  padding-left: 160px;
 }
 
 .popup {
