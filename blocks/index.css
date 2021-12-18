@@ -1,4 +1,5 @@
 .header {
+  background-color: #1A1A1A;
   position: relative;
   z-index: 100;
 }
@@ -89,6 +90,7 @@
   font-family: "Noto_Sans", sans-serif;
   font-weight: 600;
   border: 1px;
+  margin-top: 30px;
 }
 .button__subheader {
   display: block;
@@ -107,6 +109,9 @@
 }
 .button__main_footer {
   margin-top: 60px;
+}
+.button__close {
+  margin-top: 233px;
 }
 
 .footer {
@@ -155,6 +160,9 @@
   font-family: "Noto_Sans";
   font-weight: 600;
   font-size: 70px;
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 160px;
 }
 
 .subtitle {
@@ -163,6 +171,7 @@
   font-size: 20px;
   min-width: 500px;
   max-width: 520px;
+  padding-left: 160px;
 }
 
 .popup {
@@ -200,7 +209,7 @@
   }
 }
 .popup__title {
-  margin: 0 auto;
+  margin: 50px auto 78px;
   font-family: "Noto_Sans", "Arial", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -216,7 +225,7 @@
 }
 .popup__form {
   display: block;
-  margin: 78px auto;
+  margin: 0 auto;
 }
 .popup__input {
   margin-bottom: 20px;
